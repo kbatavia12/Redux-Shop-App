@@ -8,10 +8,10 @@ import { Button } from "@material-ui/core";
 
 const MyNavbar = (props) => {
   return (
-    <AppBar position="static" variant="elevation">
       <div className="Container">
+        <AppBar position="static" variant="elevation" style = {{backgroundColor: '#477979', width: '100%'}} >
         <Toolbar>
-          <Typography variant="h4">Shop-App</Typography>
+          <p className = "Title">Shop-App</p>
           <div style={{ marginLeft: 20,flex: 1, alignSelf: 'center' }}>
               <Link
                 to="/"
@@ -19,7 +19,7 @@ const MyNavbar = (props) => {
                   color: "white",
                   marginRight: 10,
                   fontWeight: "bold",
-                  fontSize: 20,
+                  fontSize: 18,
                 }}
               >
                 Home
@@ -30,7 +30,7 @@ const MyNavbar = (props) => {
                   color: "white",
                   marginRight: 10,
                   fontWeight: "bold",
-                  fontSize: 20,
+                  fontSize: 18,
                 }}
               >
                 Cart
@@ -41,7 +41,7 @@ const MyNavbar = (props) => {
                   color: "white",
                   marginRight: 10,
                   fontWeight: "bold",
-                  fontSize: 20,
+                  fontSize: 18,
                 }}
               >
                 Profile
@@ -51,8 +51,8 @@ const MyNavbar = (props) => {
               </Button> */}
           </div>
         </Toolbar>
-      </div>
     </AppBar>
+      </div>
   );
 };
 

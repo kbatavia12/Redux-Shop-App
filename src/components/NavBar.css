@@ -4,7 +4,10 @@
 }
 
 .Container {
-    background-color: darkslategrey;
-    justify-content: space-between;
-    flex-direction: row;
+    width: 100%;
+}
+
+.Title {
+    font-size: 25px;
+    font-weight: bold;
 }

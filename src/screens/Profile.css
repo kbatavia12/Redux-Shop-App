@@ -9,10 +9,9 @@
 }
 
 .Personal-Info {
-    flex: 1;
     margin-left: 10%;
     margin-top: 3%;
-
+    float: left;
 }
 
 .Profile-Pic {
@@ -20,3 +19,15 @@
     height:300px;
     border-radius: 50%;
 }
+
+.Container {
+    overflow: hidden;
+}
+
+.Details {
+    margin-left: 10%;
+    margin-top: 3%;
+    float: left;
+    align-content: center;
+}
+
