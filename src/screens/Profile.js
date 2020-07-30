@@ -18,7 +18,7 @@ const Profile = () => {
             <div className = "Details" >
                 <DetailCard label = "Name" description = "Karan Batavia"  />
                 <DetailCard label = "Email" description = "kbatavia12gmail.com"  />
-                <DetailCard label = "Phone Number" description = "7741068892"  />
+                <DetailCard label = "Phone Number" description = "000000000"  />
             </div>
         </div>
     );

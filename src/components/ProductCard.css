@@ -1,0 +1,21 @@
+.Main-Container {
+    border-color: grey;
+    overflow: hidden;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px 5px lightgrey;
+    border-radius: 5%;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+
+.Product-Card-Container {
+    margin-left: 2%;
+    margin-left: 15%;
+}
+
+.Name {
+    margin-left: 5%;
+    margin-top: -1%;
+    float: left;
+}
+
