@@ -6,3 +6,13 @@ export const addToCart = (name, description, price) => {
     description: description,
   };
 };
+
+export const getNavigatorState = (stateDesc) => {
+  return {
+    type: 'GET_PAGE_TYPE',
+    payload: {
+      domain: stateDesc.domain,
+      subdomain: stateDesc.subdomain
+    }
+  };
+};
